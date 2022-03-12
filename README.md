@@ -5,8 +5,3 @@ What happens on the stack is that, the computer creates room for numOne and stor
 What if during the coding process, we decided to update the value of numOne to say, 100? Does it mean numTwo will change too? The answer is no.
 Since numOne and numTwo were stored differently on the stack, updating one of them will not affect the other. And we can experiment with that by actually trying it out in our code editor.
 Logging numOne to the console will output 100, and logging numTwo will output 50. So, in effect, the two variables have no relationship to each other.
-let numOne = 50;
-let numTwo = numOne; //numTwo=numOne=50
-numOne = 100;
-console.log(numOne); //outputs 100
-console.log(numTwo);
